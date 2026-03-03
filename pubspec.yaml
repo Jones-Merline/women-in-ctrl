@@ -1,0 +1,32 @@
+name: women_in_ctrl
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  geolocator: ^10.1.0
+  flutter_map: ^5.0.0
+  latlong2: ^0.9.1
+  http: ^1.2.0
+  sensors_plus: ^4.0.2
+  permission_handler: ^11.3.0
+  noise_meter: 5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cctv_data.json
+    - assets/images/
